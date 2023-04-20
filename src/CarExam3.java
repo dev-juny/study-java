@@ -3,6 +3,10 @@ public class CarExam3 {
 
         Car c1 = new Car();
         System.out.println("c1 = " + c1); //println(Object x) == System.out.println(c1.torString()))
+        c1.printName();
+        System.out.println("==============================");
+        Car c2 = new Car("jun");
+        c2.printName();
 
     }
 }
