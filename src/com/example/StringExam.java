@@ -19,6 +19,11 @@ public class StringExam {
         System.out.println("str3 = " + str3);
         System.out.println("str4 = " + str4);
 
+
+        System.out.println("str1 = " + str1);
+        str1 = "hello2";
+        System.out.println("str1 = " + str1);
+
     }
 }
 
